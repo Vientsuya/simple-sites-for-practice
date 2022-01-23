@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d6e8f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-box {
+  text-align: center;
+}
+
+.content-box h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.content-box p {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.actions-box button {
+  font-size: 1.15rem;
+  padding: .25em .5em;
+  margin: 0 .35em;
+  background-color: rgba(61, 61, 61, 0);
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

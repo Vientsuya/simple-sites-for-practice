@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(214, 232, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    text-align: center;
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 6rem;
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+}
+
+.actions-box {
+    button {
+        font-size: 1.15rem;
+        padding: .25em .5em;
+        margin: 0 .35em;
+        background-color:rgba(61, 61, 61, 0);
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
