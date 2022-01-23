@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "commonjs",
+		"sourceMap": true,
+		"outDir": "./build",
+		"rootDir": "./src",
+		"removeComments": true,
+	},
+	"compileOnSave": true
+}
